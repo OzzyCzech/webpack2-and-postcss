@@ -66,7 +66,7 @@ Tohle repo je **příklad** toho, jak rozchodit ve své aplikaci *postcss* s vyu
   
 		yarn add --dev img-loader file-loader url-loader
     
-	A ještě upravit `webpack.config.js` přidáním:
+	A ještě upravit `webpack.config.js` přidáním [url-loader](https://github.com/webpack-contrib/url-loader) a [img-loader](https://www.npmjs.com/package/img-loader):
   
 		{
 		  test: /\.(jpe?g|png|gif|svg)$/i,
