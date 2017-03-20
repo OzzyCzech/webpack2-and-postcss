@@ -18,7 +18,7 @@ Tohle repo je **příklad** toho, jak rozchodit ve své aplikaci *postcss* s vyu
 	* **postcss-import** PostCSS plugin pro inline [@import](https://github.com/postcss/postcss-import)
 	* **file-loader** použijeme pro load statických souborů   
 
-2. Upravíme svůj `webpack.config.js přidáním nového pravidla:
+2. Upravíme svůj `webpack.config.js` přidáním nového pravidla:
 
 		module: {
 		  rules: [
