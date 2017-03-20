@@ -22,7 +22,7 @@ Tohle repo je **příklad** toho, jak rozchodit ve své aplikaci *postcss* s vyu
 
 		module: {
 		  rules: [
-			    {
+		    {
 		      test: /\.css$/,
 		      use: ExtractTextPlugin.extract({
 		        fallback: "style-loader",
