@@ -40,9 +40,9 @@ Slovníček:
 
    a ověříme, že již obsahuje definovanou cestu
 
-    output: {
-      path: path.resolve(__dirname, 'dist'),			
-    },
+		output: {
+		  path: path.resolve(__dirname, 'dist'),			
+		},
 
 4. Nastavíme **postcss** - konfigurace jsou nově načítány ze souboru `./postcss.config.js`
 
@@ -65,7 +65,7 @@ Slovníček:
   
 		yarn add --dev img-loader file-loader url-loader # pro nacitani statickych souborů
     
-  A ještě upravit `webpack.config.js` přidáním:
+	A ještě upravit `webpack.config.js` přidáním:
   
 		{
 		  test: /\.(jpe?g|png|gif|svg)$/i,
