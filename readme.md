@@ -8,15 +8,15 @@ Tohle repo je **příklad** toho, jak rozchodit ve své aplikaci *postcss* s vyu
 
 		yarn add --dev extract-text-webpack-plugin css-loader postcss postcss-loader postcss-cssnext postcss-import
 
-Slovníček:
-
-* **extract-text-webpack-plugin** nám extrahuje CSS soubory do statických souborů (proč? cache, HTTP2, přehlednost)
-* **css-loader** bude náš fallback, pokud se nepovede extrahovat CSS soubory (vhodne také pri dev modu a hot reload)
-* **postcss** je nástroje pro transformaci CSS pomocí JavaScript
-* **postcss-loader** je webpack loader pro postcss
-* **postcss-cssnext** je rozšíření *postcss* přidává podporu nového CSS pro starší browsery [CSSnext](http://cssnext.io/)
-* **postcss-import** PostCSS plugin pro inline [@import](https://github.com/postcss/postcss-import)
-* **file-loader** použijeme pro load statických souborů   
+	Slovníček:
+	
+	* **extract-text-webpack-plugin** nám extrahuje CSS soubory do statických souborů (proč? cache, HTTP2, přehlednost)
+	* **css-loader** bude náš fallback, pokud se nepovede extrahovat CSS soubory (vhodne také pri dev modu a hot reload)
+	* **postcss** je nástroje pro transformaci CSS pomocí JavaScript
+	* **postcss-loader** je webpack loader pro postcss
+	* **postcss-cssnext** je rozšíření *postcss* přidává podporu nového CSS pro starší browsery [CSSnext](http://cssnext.io/)
+	* **postcss-import** PostCSS plugin pro inline [@import](https://github.com/postcss/postcss-import)
+	* **file-loader** použijeme pro load statických souborů   
 
 2. Upravíme svůj `webpack.config.js přidáním nového pravidla:
 
