@@ -6,7 +6,8 @@ Tohle repo je **příklad** toho, jak rozchodit ve své aplikaci *postcss* s vyu
   
 1. Začneme instalací potřebných balíčků:
 
-		yarn add --dev extract-text-webpack-plugin css-loader postcss postcss-loader postcss-cssnext postcss-import
+		yarn add --dev extract-text-webpack-plugin css-loader
+		yarn add --dev postcss postcss-loader postcss-cssnext postcss-import
 
 	Slovníček:
 	
@@ -15,8 +16,7 @@ Tohle repo je **příklad** toho, jak rozchodit ve své aplikaci *postcss* s vyu
 	* **postcss** je nástroje pro transformaci CSS pomocí JavaScript
 	* **postcss-loader** je webpack loader pro postcss
 	* **postcss-cssnext** je rozšíření *postcss* přidává podporu nového CSS pro starší browsery [CSSnext](http://cssnext.io/)
-	* **postcss-import** PostCSS plugin pro inline [@import](https://github.com/postcss/postcss-import)
-	* **file-loader** použijeme pro load statických souborů   
+	* **postcss-import** PostCSS plugin pro inline [@import](https://github.com/postcss/postcss-import)	   
 
 2. Upravíme svůj `webpack.config.js` přidáním nového pravidla:
 
@@ -61,9 +61,10 @@ Tohle repo je **příklad** toho, jak rozchodit ve své aplikaci *postcss* s vyu
 		  "build": "webpack --progress --colors"
 		}
 
-6. Pokud budeme potřebovat načítat v CSS **statické soubory**, budeme muset přidat následující:
+6. Pokud budeme potřebovat načítat v CSS **statické soubory**, například obrázky přes `url()`,
+	budeme muset přidat následující:
   
-		yarn add --dev img-loader file-loader url-loader # pro nacitani statickych souborů
+		yarn add --dev img-loader file-loader url-loader
     
 	A ještě upravit `webpack.config.js` přidáním:
   
