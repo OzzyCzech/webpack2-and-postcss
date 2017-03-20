@@ -1,0 +1,15 @@
+article {
+  font-size: 16px;
+  display: flex;
+  background: url('article/image.png');
+
+  & a {
+    color: var(--color-blue);
+  }
+
+  @media (width > 600px) {
+    max-width: 30em;
+  }
+
+
+}
