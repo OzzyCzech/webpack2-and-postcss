@@ -1,4 +1,4 @@
-# Webpack 2 + postcss + cssnext
+# Webpack 2 + PostCSS + CSSnext
 
 > [LESS](http://lesscss.org/) a [SASS](http://sass-lang.com/) jsou mrtvé ať žije [postcsss](http://postcss.org/) :-)
 
