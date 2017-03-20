@@ -1,6 +1,6 @@
 # Webpack 2 + PostCSS + CSSnext
 
-> [LESS](http://lesscss.org/) a [SASS](http://sass-lang.com/) jsou mrtvé, ať žije [postcsss](http://postcss.org/) :-)
+> [LESS](http://lesscss.org/) a [SASS](http://sass-lang.com/) jsou mrtvé, ať žije [postCSS](http://postcss.org/) a [CSSnext](http://cssnext.io/) :-)
 
 Tohle repo je **příklad** toho, jak rozchodit ve své aplikaci *postcss* s využitím [Webpack2](https://webpack.js.org/) a [Yarn](https://yarnpkg.com/lang/en/) - jdeme na věc:
   
