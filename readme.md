@@ -12,7 +12,7 @@ Tohle repo je **příklad** toho, jak rozchodit ve své aplikaci *postcss* s vyu
 	Slovníček:
 	
 	* **extract-text-webpack-plugin** nám extrahuje CSS soubory do statických souborů (proč? cache, HTTP2, přehlednost)
-	* **css-loader** bude náš fallback, pokud se nepovede extrahovat CSS soubory (vhodne také pri dev modu a hot reload)
+	* **css-loader** bude náš fallback, pokud se nepovede extrahovat CSS soubory (vhodne také pri dev modu a hot reload, protože vkládá CSS přímo do JS kódu)
 	* **postcss** je nástroje pro transformaci CSS pomocí JavaScript
 	* **postcss-loader** je webpack loader pro postcss
 	* **postcss-cssnext** je rozšíření *postcss* přidává podporu nového CSS pro starší browsery [CSSnext](http://cssnext.io/)
